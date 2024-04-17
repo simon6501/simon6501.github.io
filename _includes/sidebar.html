@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+    <a class="sidebar-nav-item{% if page.title == 'Posts' %} active{% endif %}" href="{{ '/' | absolute_url }}">Archives</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,8 +25,8 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
@@ -34,5 +34,37 @@
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
+
+    <p id="uptime"></p>
   </div>
 </div>
+
+<script>
+  // Function to calculate the uptime
+  function calculateUptime() {
+    var startTime = new Date('{{ site.start_time }}');
+    var currentTime = new Date();
+    var uptime = currentTime - startTime;
+
+    var days = Math.floor(uptime / (1000 * 60 * 60 * 24));
+    uptime %= (1000 * 60 * 60 * 24);
+    var hours = Math.floor(uptime / (1000 * 60 * 60));
+    uptime %= (1000 * 60 * 60);
+    var minutes = Math.floor(uptime / (1000 * 60));
+    uptime %= (1000 * 60);
+    var seconds = Math.floor(uptime / 1000);
+
+    var uptimeString = "Already safely run for ";
+    uptimeString += days + " days ";
+    uptimeString += hours + " hours ";
+    uptimeString += minutes + " minutes ";
+    uptimeString += seconds + " seconds";
+
+    document.getElementById("uptime").innerText = uptimeString;
+  }
+
+  // Call the function to display the uptime
+  calculateUptime();
+
+  setInterval(calculateUptime, 1000);
+</script>
