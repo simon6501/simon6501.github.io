@@ -1,0 +1,15 @@
+---
+layout: default
+title: Notes
+---
+
+<div id="notes">
+  <h1>Notes</h1>
+  <ul class="notes">
+    {% for note in site.posts %}
+      {% if note.layout != "none" and note.category == "notes" %}
+      <li><a href="{{ note.url }}">{{ note.title }}</a><span> &raquo; {{ note.date | date: "%B %d, %Y" }}</span></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
