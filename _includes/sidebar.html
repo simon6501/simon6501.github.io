@@ -4,12 +4,12 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <div class="sidebar-item-description">
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Posts' %} active{% endif %}" href="{{ '/' | absolute_url }}">Posts</a>
+    <a class="sidebar-nav-item{% if page.title == 'Posts' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
     <a class="sidebar-nav-item{% if page.title == 'Notes' %} active{% endif %}" href="{{ '/notes/' | absolute_url }}">Notes</a>
 
     {% comment %}
