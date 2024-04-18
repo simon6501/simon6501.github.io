@@ -2,15 +2,16 @@
 title:               Simon
 tagline:             'A Hardware Guy 🌄🌃'
 description:         'A place to share my thoughts.'
-url:                 http://lanyon.getpoole.com
+domain:              simon6501.github.io
+url:                 https://simon6501.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Shengzhe LYU (Simon)
-  url:               https://github.com/shengzhelyu65
+  name:              Simon
+  url:               https://github.com/simon6501
   email:             shengzhe.lyu@gmail.com
 
 # Gems
