@@ -1,7 +1,7 @@
 # Setup
 title:               Simon
 tagline:             'A Hardware Guy 🌄🌃'
-description:         'A blog archiving my thoughts and projects.'
+description:         'A place to share my thoughts.'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
@@ -10,7 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Shengzhe LYU (Simon)
-  url:               https://twitter.com/mdo
+  url:               https://github.com/shengzhelyu65
   email:             shengzhe.lyu@gmail.com
 
 # Gems

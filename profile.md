@@ -7,10 +7,7 @@ title: Profile
   Stay tuned for updates! 😀😉
 </p>
 
-<p>Hello, time: {{ site.starttime }}</p>
-
-## Blogs
-
-Some fun blogs will be posted here!
+## About Me
+Hala Madrid!
 
 Thanks for reading!
