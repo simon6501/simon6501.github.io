@@ -7,7 +7,8 @@ source "https://rubygems.org"
 # $ bundle
 # $ bundle exec jekyll serve
 
-gem "jekyll"
-gem "jekyll-paginate"
+# gem "jekyll"
+# gem "jekyll-paginate"
 
 gem "github-pages", "~> 231", group: :jekyll_plugins
+gem "webrick"
