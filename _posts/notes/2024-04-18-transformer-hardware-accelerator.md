@@ -23,3 +23,5 @@ Hardware Acceleration of Transformer Networks using FPGAs [PACET'22](https://iee
 Accelerating Transformerbased Deep Learning Models on FPGAs using Column Balanced Block Pruning [ISQED'21](https://ieeexplore.ieee.org/abstract/document/9424344?casa_token=OE8jWe4DwcAAAAA:lrw52KTDDBOeCqmtehQVndmbu0L2TE7EoleIaIpy3Oe9__eCqErc2VDLQcmlLZefg0RjfvH6TA)
 
 A length adaptive algorithmhardware codesign of transformer on FPGA through sparse attention and dynamic pipelining [DAC'22](https://dl.acm.org/doi/pdf/10.1145/3489517.3530585)
+
+Accommodating Transformer onto FPGA: Coupling the Balanced Model Compression and FPGA-Implementation Optimization [GLSVLSI'21](https://dl.acm.org/doi/abs/10.1145/3453688.3461739)

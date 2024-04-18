@@ -13,3 +13,7 @@ The Breakthrough Memory Solutions for Improved Performance on LLM Inference (Sam
 OliVe: Accelerating Large Language Models via Hardwarefriendly OutlierVictim Pair Quantization [ISCA'23](https://dl.acm.org/doi/abs/10.1145/3579371.3589038?casa_token=oC0Xzyuq1qsAAAAA:YUKnbev78hWOmAaDpn5ql0ye7UWCwKsuMPs5M5c13Vc3eo3MvdbSIxX7FCgzOOdW1puKMpuuxhevA)
 
 AWQ: Activationaware Weight Quantization for LLM Compression and Acceleration [arXiv'23](https://arxiv.org/abs/2306.00978)
+
+A Fast and Flexible FPGA-based Accelerator for Natural Language Processing Neural Networks [TACO'23](https://dl.acm.org/doi/10.1145/3564606)
+
+A Survey on Hardware Accelerators for Large Language Models [arxiv'24](https://arxiv.org/abs/2401.09890)
