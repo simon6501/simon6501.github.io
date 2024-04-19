@@ -7,6 +7,8 @@ category: notes
 ### Survey
 A Survey on Transformer Compression [arXiv'24](https://arxiv.org/html/2402.05964v1)
 
+Transformer Silicon Research [github](https://github.com/alimpk/transfomers-silicon-research)
+
 ### Transformer Hardware Accelerator on FPGA
 Hardware Accelerator for MultiHead Attention and PositionWise FeedForward in the Transformer [SOCC'20](https://ieeexplore.ieee.org/abstract/document/9524802?casa_token=waZ1VVnVLHsAAAAA:WmpqhJHcrQ1SEubirzdw1WsjJyY9sbh2CNU8kP9LyS_bI1Qx6HRAFsxxdfyXNCWKcUG0rgHxg)
 
