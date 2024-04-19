@@ -32,6 +32,25 @@ A length adaptive algorithm-hardware codesign of transformer on FPGA through spa
 
 Adaptable Butterfly Accelerator for Attention-based NNs via Hardware and Algorithm Co-design [arxiv'22](https://arxiv.org/abs/2209.09570)
 
+<div class="message">
+    Summary:
+    * Input sequence matters for transformer or attention-based NNs. As a result, designing an end- to-end accelerator for scalable attention-based NNs remains an open problem.
+    Various approaches and designs have been introduced to reduce computational complexity of attention-based DNNs. However, there are drawbacks:
+    * Without jointly optimizing both parts, these hardware designs lack scalability when accelerating the end-to-end attention-based NNs with different input lengths.
+    * The sparsity patterns introduced by these dynamic ap- proaches are often unstructured, requiring dynamic hard- ware controllers to exploit sparsity. Such complicated con- trollers often contain larger numbers of clocking elements, and their hardware overhead increases as the transistor size reduces. 
+    Main contributions:
+    * Fine-grained structured regu- larity, which possesses regular data accesses to optimize both memory and compute efficiency
+    * Static sparsity pattern, no need for dynamic hardware controllers. A novel adaptable butterfly accelerator configurable at runtime via dedicated hardware control to accelerate dif- ferent layers using a single unified engine.
+    * Sparsity exploitation on both linear and attention layers
+    Backgrounds:
+    * The self-attention mechanism in the Transformer scales quadratically in terms of computation and memory as a function of the input sequence length.
+    * Numerous works adopt structured linear mappings, such as sparse and low-rank matrices, to approximate the attention matrices and/or the weight matrices in the feed- forward layers. -> **Butterfly matrices**, universal representations of structured matrices. -> In this work, FFT and butterfly matrices are mixed.
+    * Notably, on both CPU and GPU, linear layers take up a significant portion of execution time, 67.9% and 79.34% respectively, when the input length is small. As the input length becomes larger, the execution time of attention layers increases gradually and becomes dominant. As such, the latency is dominated by different components depending on the length of the input sequence. 
+
+    Limitations:
+    * Proposed for encoder-only networks, but claimed to be extendable to decoder-only networks.
+</div>
+
 ## Vision Transformer
 ViA: A Novel VisionTransformer Accelerator Based on FPGA [TCAD'22](https://ieeexplore.ieee.org/abstract/document/9925700?casa_token=W3nvGlo8ycAAAAA:VXPr0pn1PiJGKR8PpvLdLoAYJs7GK1pEyNm6tDXcH8JyrFUn9EjTcgqg9I1CzCXlHRUEdEIeQ)
 
