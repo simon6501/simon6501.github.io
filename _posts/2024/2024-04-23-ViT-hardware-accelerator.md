@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hardware Accelerator for Transformers
+title: Hardware Accelerator for Vision Transformers
 ---
 
 * TOC
@@ -49,7 +49,7 @@ The stream architecture implements corresponding hardware units for **each opera
 - Poor flexibility: For different models or the same model with different configurations, new hardware computing units need to be designed or the circuit needs to be re-synthesized.
 
 ## Algorithm-level optimization - Quantization
-PTQ4ViT: Post-training Quantization for Vision Transformers with Twin Uniform Quantization [ECCV'22](https://dl.acm.org/doi/abs/10.1007/978-3-031-19775-8_12)[github](https://github.com/hahnyuan/PTQ4ViT)
+### PTQ4ViT: Post-training Quantization for Vision Transformers with Twin Uniform Quantization [ECCV'22](https://dl.acm.org/doi/abs/10.1007/978-3-031-19775-8_12)[github](https://github.com/hahnyuan/PTQ4ViT)
 
 Research motivation:
 - The purpose of quantization is to reduce the number of bits required to represent network weights or intermediate features to reduce the internal storage and computing costs of ViT.

@@ -3,6 +3,8 @@ layout: post
 title: Example content for posts
 ---
 
+* TOC
+{:toc}
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
