@@ -7,6 +7,8 @@ category: notes
 ## Survey
 A Survey on Transformer Compression [arXiv'24](https://arxiv.org/html/2402.05964v1)
 
+A Survey on Sparsity Exploration in Transformer-Based Accelerators [electronics'23](https://www.mdpi.com/2079-9292/12/10/2299)
+
 Transformer Silicon Research [github](https://github.com/alimpk/transfomers-silicon-research)
 
 ## Transformer Hardware Accelerator on FPGA
@@ -22,6 +24,15 @@ Accommodating Transformer onto FPGA: Coupling the Balanced Model Compression and
 
 ## Transformer Hardware Accelerator on Other Platforms
 TransformerLite: Highefficiency Deployment of Large Language Models on Mobile Phone GPUs (OPPO AI Center) [arXiv'24](https://arxiv.org/abs/2403.20041)
+
+SwiftTron: An Efficient Hardware Accelerator for Quantized Transformers [IJCNN'23](https://arxiv.org/pdf/2304.03986.pdf)
+
+## Vision Transformer Hardware Accelerator on FPGA
+Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-level Sparsity via Mixture-of-Experts [ICCAD'23](https://arxiv.org/abs/2305.18691)
+
+LTrans-OPU: A Low-Latency FPGA-Based Overlay Processor for Transformer Networks [FPL'23](https://ieeexplore.ieee.org/document/10296349)
+
+NPE: An FPGA-based Overlay Processor for Natural Language Processing [FPGA'21](https://dl.acm.org/doi/10.1145/3431920.3439477)
 
 ## Software-Hardware Co-Design
 TransPIM: A Memory-based Acceleration via Software-Hardware Co-Design for Transformer [HPCA'22](https://ieeexplore.ieee.org/abstract/document/9773212?casa_token=LjFoEmvTZk8AAAAA:__alwZqW1r5yDLnv8wfX3_F5EvDJxnzkRtnJcWGFeHkm0202_j5La2jAeO8rTJW2yng8GNroqA)
@@ -56,6 +67,10 @@ Backgrounds:
 ViA: A Novel VisionTransformer Accelerator Based on FPGA [TCAD'22](https://ieeexplore.ieee.org/abstract/document/9925700?casa_token=W3nvGlo8ycAAAAA:VXPr0pn1PiJGKR8PpvLdLoAYJs7GK1pEyNm6tDXcH8JyrFUn9EjTcgqg9I1CzCXlHRUEdEIeQ)
 
 An FPGA-Based Reconfigurable Accelerator for Convolution-Transformer Hybrid EfficientViT [arXiv'24](https://arxiv.org/abs/2403.20230)
+
+PTQ4ViT: Post-training Quantization for Vision Transformers with Twin Uniform Quantization [ECCV'22](https://dl.acm.org/doi/abs/10.1007/978-3-031-19775-8_12)[github](https://github.com/hahnyuan/PTQ4ViT)
+
+ViTA: A Vision Transformer Inference Accelerator for Edge Applications [ISCAS'23](https://ieeexplore.ieee.org/document/10181988)
 
 ## Two directions:
 - Software-Hardware Co-Design: Accelerating Transformer-based models by optimizing both software (parallelism, memory access, etc.) and hardware (customized accelerator, etc.)
