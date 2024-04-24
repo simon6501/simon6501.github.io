@@ -9,7 +9,7 @@ title: Hardware Accelerator for Vision Transformers
 ## Common Hardware Accelerator for ViT
 ### Overlay Architecture
 - Specific design of corresponding ISA is required
-![LTrans-OPU](../../../../public/images/posts/2024/2024-04-23-transformer-hardware-acclerator/LTrans-OPU.png)
+![LTrans-OPU](../../../../public/images/posts/2024/2024-04-23-transformer-hardware-acclerator/LTrans-OPU.png){: style="margin: 0 auto;"}
 <div class="caption">
   LTrans-OPU: A Low-Latency FPGA-Based Overlay Processor for Transformer Networks [FPL'23]
 </div>
