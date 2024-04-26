@@ -24,3 +24,6 @@ google_analytics_id: #UA-XXXX-Y
 
 # Starting time
 start_time:          '2024-04-17T00:00:00Z'
+
+# Google Analytics
+google_analytics_id: G-C62RW4T3NH
