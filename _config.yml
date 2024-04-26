@@ -14,9 +14,13 @@ author:
   url:               https://github.com/simon6501
   email:             shengzhe.lyu@gmail.com
 
+# Remote theme
+remote_theme: jekyll/minima
+
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Custom vars
 version:             1.1.0
