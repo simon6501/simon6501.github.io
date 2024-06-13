@@ -110,6 +110,27 @@ Based on Ref [2], there are two types of channel estimation approaches:
 - Estimating Channel Transfer Function
 - Estimating DoA/DoD (Parametric)
 
+## [Deep CNN-Based Channel Estimation for mmWave MIMO Systems](https://ieeexplore.ieee.org/document/8752012)
+### Hybrid Architecture
+Due to the limited physical space with closely placed antennas and prohibitive power consumption in mmWave massive MIMO systems, it is difficult to equip a dedicated radio frequency (RF) chain for each antenna. To reduce complexity and cost, phase shifter based two-stage architecture, usually called hybrid architecture, is widely used at both the transmitter and the receiver to connect a large number of antennas with much fewer RF chains.
+
+### OFDM
+Orthogonality of Functions: Two mathematical functions are orthogonal when the definite integral of their product is zero.
+
+And the recovery of the OFDM signal is done by the DFT/IDFT operation, which is illustrated in the following figure.
+![OFDM](../../../../public/images/posts/2024/2024-06-11-channel-estimation/OFDM.png)
+<div class="caption">
+  OFDM and DFT/IDFT
+</div>
+
+### Frequency-selective Channel Fading and Delay Spread
+- Frequency-selective fading: The channel response varies with frequency.
+- Delay spread: The time difference between the arrival of the first and last multipath components. The common metric to measure it is the standard deviation of the delay spread called RMS delay spread.
+
+### Coherence Time and Coherence Bandwidth
+- Coherence Time: The time duration over which the channel remains constant.
+- Coherence Bandwidth: The bandwidth over which the channel remains constant. All frequencies within the coherence bandwidth experience the same channel response and will fade simultaneously. The coherence bandwidth is inversely proportional to the delay spread.
+
 ## References
 - [1] [MIMO Communications](https://www.youtube.com/watch?v=TC19gMQ6azE&list=PLx7-Q20A1VYKwoWNCyWfErLArGLtKdS37)
 - [2] [Parametric Channel Estimation for 3D mmWave Massive MIMO/FD-MIMO Systems](https://www.youtube.com/watch?v=aPR8a7pxpCU)
